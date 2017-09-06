@@ -9,6 +9,8 @@ using Jgp.Issues.Authorization.Roles;
 using Jgp.Issues.Authorization.Users;
 using Jgp.Issues.Roles.Dto;
 using Jgp.Issues.Users.Dto;
+using Jgp.Issues.Companys.Dtos;
+using Jgp.Issues.Companys;
 
 namespace Jgp.Issues
 {
@@ -38,6 +40,8 @@ namespace Jgp.Issues
 
                 cfg.CreateMap<CreateUserDto, User>();
                 cfg.CreateMap<CreateUserDto, User>().ForMember(x => x.Roles, opt => opt.Ignore());
+
+                cfg.CreateMap<CompanyDto, Company>();
             });
         }
     }

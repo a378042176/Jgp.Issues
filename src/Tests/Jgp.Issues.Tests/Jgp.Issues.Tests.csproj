@@ -173,6 +173,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Companys\CompanyAppService_Tests.cs" />
     <Compile Include="IssuesTestModule.cs" />
     <Compile Include="MultiTenantFactAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

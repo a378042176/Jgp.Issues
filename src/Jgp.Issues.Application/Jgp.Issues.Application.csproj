@@ -117,6 +117,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Companys\Dtos\CompanyDto.cs" />
+    <Compile Include="Companys\Dtos\GetCompanysInput.cs" />
+    <Compile Include="Companys\Dtos\GetCompanysOutput.cs" />
+    <Compile Include="Companys\ICompanyAppService.cs" />
+    <Compile Include="Companys\TaskAppService.cs" />
     <Compile Include="IssuesApplicationModule.cs" />
     <Compile Include="IssuesAppServiceBase.cs" />
     <Compile Include="Authorization\Accounts\AccountAppService.cs" />
