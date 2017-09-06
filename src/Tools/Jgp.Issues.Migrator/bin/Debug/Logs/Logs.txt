@@ -1,0 +1,19 @@
+DEBUG 2017-09-06 23:20:17,186 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-09-06 23:20:17,227 [1    ] Abp.Modules.AbpModuleManager             - Found 9 ABP modules in total.
+DEBUG 2017-09-06 23:20:17,230 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Jgp.Issues.Migrator.IssuesMigratorModule, Jgp.Issues.Migrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:20:17,231 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Jgp.Issues.IssuesDataModule, Jgp.Issues.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:20:17,231 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:20:17,232 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:20:17,232 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:20:17,232 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:20:17,232 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:20:17,232 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:20:17,232 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Jgp.Issues.IssuesCoreModule, Jgp.Issues.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:20:17,234 [1    ] Abp.Modules.AbpModuleManager             - 9 modules loaded.
+DEBUG 2017-09-06 23:20:17,529 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Jgp.Issues.EntityFramework.IssuesDbContext, Jgp.Issues.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:20:17,717 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-09-06 23:20:17,728 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-09-06 23:20:17,731 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-09-06 23:20:17,733 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Issues
+INFO  2017-09-06 23:20:17,752 [1    ] Jgp.Issues.Migrator.Log                  - Host database: Default
+INFO  2017-09-06 23:20:17,752 [1    ] Jgp.Issues.Migrator.Log                  - Continue to migration for this host database and all tenants..? (Y/N): 

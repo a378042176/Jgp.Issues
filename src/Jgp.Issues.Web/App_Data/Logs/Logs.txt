@@ -1,0 +1,474 @@
+DEBUG 2017-09-06 23:22:30,687 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-09-06 23:22:30,700 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-09-06 23:22:30,704 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Jgp.Issues.Web.IssuesWebModule, Jgp.Issues.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:22:30,705 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Jgp.Issues.IssuesDataModule, Jgp.Issues.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:22:30,705 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:22:30,705 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:22:30,706 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:22:30,706 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:22:30,706 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:22:30,706 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:22:30,706 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Jgp.Issues.IssuesCoreModule, Jgp.Issues.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:22:30,706 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Jgp.Issues.IssuesApplicationModule, Jgp.Issues.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:22:30,706 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:22:30,706 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Jgp.Issues.Api.IssuesWebApiModule, Jgp.Issues.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:22:30,706 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:22:30,707 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:22:30,707 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:22:30,707 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:22:30,707 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:22:30,709 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-09-06 23:22:30,788 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-06 23:22:30,788 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-06 23:22:30,788 [1    ] o.Configuration.LanguageManagementConfig - Converted Issues (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-06 23:22:30,788 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-06 23:22:30,986 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Jgp.Issues.EntityFramework.IssuesDbContext, Jgp.Issues.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:22:31,801 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-09-06 23:22:31,807 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-09-06 23:22:31,810 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-09-06 23:22:31,812 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Issues
+DEBUG 2017-09-06 23:22:31,813 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-09-06 23:22:31,863 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-06 23:22:31,903 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2017-09-06 23:22:31,903 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-09-06 23:22:31,905 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-09-06 23:22:31,905 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.Users.Dto.CreateUserDto
+DEBUG 2017-09-06 23:22:31,905 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.Users.Dto.UpdateUserDto
+DEBUG 2017-09-06 23:22:31,905 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.Users.Dto.UserDto
+DEBUG 2017-09-06 23:22:31,905 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.Roles.Dto.CreateRoleDto
+DEBUG 2017-09-06 23:22:31,905 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.Roles.Dto.PermissionDto
+DEBUG 2017-09-06 23:22:31,905 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.Roles.Dto.RoleDto
+DEBUG 2017-09-06 23:22:31,905 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-09-06 23:22:31,905 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-09-06 23:22:31,905 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.MultiTenancy.Dto.TenantDto
+DEBUG 2017-09-06 23:22:31,906 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.Web.Models.Account.TenantChangeViewModel
+DEBUG 2017-09-06 23:22:31,906 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-09-06 23:22:32,867 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Jgp.Issues.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-09-06 23:22:32,868 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Jgp.Issues.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-09-06 23:22:32,869 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Jgp.Issues.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-09-06 23:22:32,869 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Jgp.Issues.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-09-06 23:22:32,870 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Jgp.Issues.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-09-06 23:22:32,871 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Jgp.Issues.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+ERROR 2017-09-06 23:22:33,896 [6    ] gp.Issues.Web.Controllers.HomeController - 不支持区域性。
+参数名: name
+vn 是无效的区域性标识符。
+System.Globalization.CultureNotFoundException: 不支持区域性。
+参数名: name
+vn 是无效的区域性标识符。
+   在 System.Globalization.CultureInfo..ctor(String name, Boolean useUserOverride)
+   在 Abp.Localization.CultureInfoHelper.<>c.<Get>b__3_0(String n)
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   在 Abp.Localization.CultureInfoHelper.Get(String name)
+   在 Abp.Localization.MultiTenantLocalizationDictionaryProvider.CreateLocalizationDictionary(LanguageInfo language)
+   在 Abp.Localization.MultiTenantLocalizationDictionaryProvider.<>c__DisplayClass11_0.<GetDictionaries>b__0(String s)
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   在 Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDictionaries()
+   在 Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_Dictionaries()
+   在 Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   在 Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   在 Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+DEBUG 2017-09-06 23:25:02,506 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-09-06 23:25:02,516 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-09-06 23:25:02,521 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Jgp.Issues.Web.IssuesWebModule, Jgp.Issues.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:25:02,522 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Jgp.Issues.IssuesDataModule, Jgp.Issues.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:25:02,522 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:25:02,522 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:25:02,522 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:25:02,523 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:25:02,523 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:25:02,523 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:25:02,523 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Jgp.Issues.IssuesCoreModule, Jgp.Issues.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:25:02,523 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Jgp.Issues.IssuesApplicationModule, Jgp.Issues.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:25:02,523 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:25:02,523 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Jgp.Issues.Api.IssuesWebApiModule, Jgp.Issues.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:25:02,523 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:25:02,524 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:25:02,524 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:25:02,524 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:25:02,524 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:25:02,526 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-09-06 23:25:02,606 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-06 23:25:02,606 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-06 23:25:02,606 [1    ] o.Configuration.LanguageManagementConfig - Converted Issues (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-06 23:25:02,606 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-06 23:25:02,805 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Jgp.Issues.EntityFramework.IssuesDbContext, Jgp.Issues.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:25:03,575 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-09-06 23:25:03,581 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-09-06 23:25:03,584 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-09-06 23:25:03,586 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Issues
+DEBUG 2017-09-06 23:25:03,599 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-09-06 23:25:03,652 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-06 23:25:03,690 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2017-09-06 23:25:03,690 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-09-06 23:25:03,692 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-09-06 23:25:03,692 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.Users.Dto.CreateUserDto
+DEBUG 2017-09-06 23:25:03,692 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.Users.Dto.UpdateUserDto
+DEBUG 2017-09-06 23:25:03,692 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.Users.Dto.UserDto
+DEBUG 2017-09-06 23:25:03,693 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.Roles.Dto.CreateRoleDto
+DEBUG 2017-09-06 23:25:03,693 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.Roles.Dto.PermissionDto
+DEBUG 2017-09-06 23:25:03,693 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.Roles.Dto.RoleDto
+DEBUG 2017-09-06 23:25:03,693 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-09-06 23:25:03,693 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-09-06 23:25:03,693 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.MultiTenancy.Dto.TenantDto
+DEBUG 2017-09-06 23:25:03,693 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.Web.Models.Account.TenantChangeViewModel
+DEBUG 2017-09-06 23:25:03,693 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-09-06 23:25:04,669 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Jgp.Issues.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-09-06 23:25:04,670 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Jgp.Issues.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-09-06 23:25:04,671 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Jgp.Issues.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-09-06 23:25:04,671 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Jgp.Issues.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-09-06 23:25:04,672 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Jgp.Issues.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-09-06 23:25:04,673 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Jgp.Issues.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2017-09-06 23:25:05,626 [10   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: 当前用户没有登录到系统！
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   在 Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: 当前用户没有登录到系统！
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   在 Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2017-09-06 23:25:17,123 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"1d068563-94b4-41d3-b437-822456c5c7db","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-09-06T23:25:17.1188037+08:00","Properties":{}}
+DEBUG 2017-09-06 23:25:17,173 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 1d068563-94b4-41d3-b437-822456c5c7db
+DEBUG 2017-09-06 23:25:18,650 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 1d068563-94b4-41d3-b437-822456c5c7db
+DEBUG 2017-09-06 23:25:23,825 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"c9418364-a86a-4e81-a5bc-38e48a57cb67","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-09-06T23:25:23.8258037+08:00","Properties":{}}
+DEBUG 2017-09-06 23:25:23,876 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: c9418364-a86a-4e81-a5bc-38e48a57cb67
+DEBUG 2017-09-06 23:25:25,950 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: c9418364-a86a-4e81-a5bc-38e48a57cb67
+DEBUG 2017-09-06 23:25:26,443 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a42e59b0-59a3-4e85-944f-3f14a63c7237","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-09-06T23:25:26.4438037+08:00","Properties":{}}
+DEBUG 2017-09-06 23:25:26,452 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a42e59b0-59a3-4e85-944f-3f14a63c7237
+WARN  2017-09-06 23:25:28,087 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'Issues'!
+DEBUG 2017-09-06 23:25:28,127 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a42e59b0-59a3-4e85-944f-3f14a63c7237
+DEBUG 2017-09-06 23:25:28,593 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"facbbd8c-687a-4c88-8181-ee62b342ea93","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-09-06T23:25:28.5938037+08:00","Properties":{}}
+DEBUG 2017-09-06 23:25:28,652 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: facbbd8c-687a-4c88-8181-ee62b342ea93
+DEBUG 2017-09-06 23:25:30,294 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: facbbd8c-687a-4c88-8181-ee62b342ea93
+DEBUG 2017-09-06 23:25:30,710 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"832c773b-8fb3-4612-ac5f-78bd3f63b7b8","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-09-06T23:25:30.7108037+08:00","Properties":{}}
+DEBUG 2017-09-06 23:25:30,763 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 832c773b-8fb3-4612-ac5f-78bd3f63b7b8
+WARN  2017-09-06 23:25:32,575 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'Issues'!
+DEBUG 2017-09-06 23:25:32,616 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 832c773b-8fb3-4612-ac5f-78bd3f63b7b8
+DEBUG 2017-09-06 23:25:33,026 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"4abd685c-f0ba-444d-93fc-213e327d7ff2","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-09-06T23:25:33.0268037+08:00","Properties":{}}
+DEBUG 2017-09-06 23:25:33,062 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 4abd685c-f0ba-444d-93fc-213e327d7ff2
+DEBUG 2017-09-06 23:25:37,872 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 4abd685c-f0ba-444d-93fc-213e327d7ff2
+DEBUG 2017-09-06 23:25:38,512 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"7174511a-5cc9-4806-a666-00f407a26b8c","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-09-06T23:25:38.5128037+08:00","Properties":{}}
+DEBUG 2017-09-06 23:25:38,522 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 7174511a-5cc9-4806-a666-00f407a26b8c
+DEBUG 2017-09-06 23:25:43,559 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 7174511a-5cc9-4806-a666-00f407a26b8c
+DEBUG 2017-09-06 23:25:47,039 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"5891d264-d27f-4af5-ad75-5c2c10796e57","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-09-06T23:25:47.0398037+08:00","Properties":{}}
+DEBUG 2017-09-06 23:25:47,050 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 5891d264-d27f-4af5-ad75-5c2c10796e57
+DEBUG 2017-09-06 23:25:57,293 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 5891d264-d27f-4af5-ad75-5c2c10796e57
+DEBUG 2017-09-06 23:25:59,604 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"c3a181a7-c418-4a1b-b18d-6cb034ece514","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-09-06T23:25:59.6048037+08:00","Properties":{}}
+DEBUG 2017-09-06 23:25:59,659 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: c3a181a7-c418-4a1b-b18d-6cb034ece514
+WARN  2017-09-06 23:26:00,843 [20   ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'Issues'!
+DEBUG 2017-09-06 23:26:00,896 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: c3a181a7-c418-4a1b-b18d-6cb034ece514
+DEBUG 2017-09-06 23:26:01,353 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"25b5797b-5c36-4400-8877-d00d183b3956","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-09-06T23:26:01.3538037+08:00","Properties":{}}
+DEBUG 2017-09-06 23:26:01,363 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 25b5797b-5c36-4400-8877-d00d183b3956
+DEBUG 2017-09-06 23:26:02,183 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 25b5797b-5c36-4400-8877-d00d183b3956
+DEBUG 2017-09-06 23:26:02,787 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"878f1036-e0fc-4bb0-98b7-1ff511c8ce6e","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-09-06T23:26:02.7878037+08:00","Properties":{}}
+DEBUG 2017-09-06 23:26:02,798 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 878f1036-e0fc-4bb0-98b7-1ff511c8ce6e
+DEBUG 2017-09-06 23:26:06,386 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 878f1036-e0fc-4bb0-98b7-1ff511c8ce6e
+DEBUG 2017-09-06 23:26:06,755 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"21a63823-3b98-4249-ae0d-d378bff438cb","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-09-06T23:26:06.7558037+08:00","Properties":{}}
+DEBUG 2017-09-06 23:26:06,767 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 21a63823-3b98-4249-ae0d-d378bff438cb
+WARN  2017-09-06 23:26:07,744 [20   ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'Issues'!
+DEBUG 2017-09-06 23:26:07,785 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 21a63823-3b98-4249-ae0d-d378bff438cb
+DEBUG 2017-09-06 23:26:08,229 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"8f2bb9df-d20f-432b-a4c0-9bf2b7c018dc","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-09-06T23:26:08.2298037+08:00","Properties":{}}
+DEBUG 2017-09-06 23:26:08,239 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 8f2bb9df-d20f-432b-a4c0-9bf2b7c018dc
+DEBUG 2017-09-06 23:26:09,471 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 8f2bb9df-d20f-432b-a4c0-9bf2b7c018dc
+DEBUG 2017-09-06 23:26:09,896 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a390f35b-ecad-42c8-b4d4-34423d2aa9c3","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-09-06T23:26:09.8968037+08:00","Properties":{}}
+DEBUG 2017-09-06 23:26:09,908 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a390f35b-ecad-42c8-b4d4-34423d2aa9c3
+DEBUG 2017-09-06 23:26:19,527 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a390f35b-ecad-42c8-b4d4-34423d2aa9c3
+DEBUG 2017-09-06 23:26:19,916 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"14c9445f-9121-45b4-b391-81e47d9ed4a6","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-09-06T23:26:19.9168037+08:00","Properties":{}}
+DEBUG 2017-09-06 23:26:19,928 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 14c9445f-9121-45b4-b391-81e47d9ed4a6
+WARN  2017-09-06 23:26:22,036 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'Issues'!
+DEBUG 2017-09-06 23:26:22,083 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 14c9445f-9121-45b4-b391-81e47d9ed4a6
+DEBUG 2017-09-06 23:26:22,558 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"9bb84d17-b5e4-4b5c-9004-02783ff0758b","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-09-06T23:26:22.5588037+08:00","Properties":{}}
+DEBUG 2017-09-06 23:26:22,568 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 9bb84d17-b5e4-4b5c-9004-02783ff0758b
+DEBUG 2017-09-06 23:26:23,433 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 9bb84d17-b5e4-4b5c-9004-02783ff0758b
+DEBUG 2017-09-06 23:26:23,896 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"df640b10-5f53-4915-8fcd-fd626ae201e8","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-09-06T23:26:23.8958037+08:00","Properties":{}}
+DEBUG 2017-09-06 23:26:23,905 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: df640b10-5f53-4915-8fcd-fd626ae201e8
+DEBUG 2017-09-06 23:26:24,575 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: df640b10-5f53-4915-8fcd-fd626ae201e8
+DEBUG 2017-09-06 23:26:25,462 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"ccd150b2-a37d-435b-9c5c-c10cfca37f4d","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-09-06T23:26:25.4628037+08:00","Properties":{}}
+DEBUG 2017-09-06 23:26:25,475 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: ccd150b2-a37d-435b-9c5c-c10cfca37f4d
+DEBUG 2017-09-06 23:26:55,324 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: ccd150b2-a37d-435b-9c5c-c10cfca37f4d
+DEBUG 2017-09-06 23:26:56,031 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"0ca77140-6a92-4f03-8c9e-b3ac11ef0e3a","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-09-06T23:26:56.0318037+08:00","Properties":{}}
+DEBUG 2017-09-06 23:26:56,045 [27   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 0ca77140-6a92-4f03-8c9e-b3ac11ef0e3a
+DEBUG 2017-09-06 23:27:32,089 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 0ca77140-6a92-4f03-8c9e-b3ac11ef0e3a
+DEBUG 2017-09-06 23:27:32,537 [26   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"d33d5b2b-1852-40d4-ac62-c603a18b713a","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-09-06T23:27:32.5378037+08:00","Properties":{}}
+DEBUG 2017-09-06 23:27:32,553 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: d33d5b2b-1852-40d4-ac62-c603a18b713a
+WARN  2017-09-06 23:28:59,948 [33   ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'Issues'!
+DEBUG 2017-09-06 23:28:59,995 [31   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: d33d5b2b-1852-40d4-ac62-c603a18b713a
+DEBUG 2017-09-06 23:29:38,897 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-09-06 23:29:38,907 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-09-06 23:29:38,912 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Jgp.Issues.Web.IssuesWebModule, Jgp.Issues.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:29:38,913 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Jgp.Issues.IssuesDataModule, Jgp.Issues.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:29:38,913 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:29:38,913 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:29:38,913 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:29:38,913 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:29:38,914 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:29:38,914 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:29:38,914 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Jgp.Issues.IssuesCoreModule, Jgp.Issues.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:29:38,914 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Jgp.Issues.IssuesApplicationModule, Jgp.Issues.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:29:38,914 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:29:38,914 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Jgp.Issues.Api.IssuesWebApiModule, Jgp.Issues.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:29:38,914 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:29:38,914 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:29:38,914 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:29:38,915 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:29:38,915 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:29:38,917 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-09-06 23:29:38,997 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-06 23:29:38,997 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-06 23:29:38,997 [1    ] o.Configuration.LanguageManagementConfig - Converted Issues (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-06 23:29:38,997 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-06 23:29:39,194 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Jgp.Issues.EntityFramework.IssuesDbContext, Jgp.Issues.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:29:39,926 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-09-06 23:29:39,931 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-09-06 23:29:39,935 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-09-06 23:29:39,937 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Issues
+DEBUG 2017-09-06 23:29:39,938 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-09-06 23:29:39,994 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-06 23:29:40,054 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2017-09-06 23:29:40,054 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-09-06 23:29:40,056 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-09-06 23:29:40,056 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.Users.Dto.CreateUserDto
+DEBUG 2017-09-06 23:29:40,057 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.Users.Dto.UpdateUserDto
+DEBUG 2017-09-06 23:29:40,057 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.Users.Dto.UserDto
+DEBUG 2017-09-06 23:29:40,057 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.Roles.Dto.CreateRoleDto
+DEBUG 2017-09-06 23:29:40,057 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.Roles.Dto.PermissionDto
+DEBUG 2017-09-06 23:29:40,057 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.Roles.Dto.RoleDto
+DEBUG 2017-09-06 23:29:40,057 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-09-06 23:29:40,057 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-09-06 23:29:40,057 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.MultiTenancy.Dto.TenantDto
+DEBUG 2017-09-06 23:29:40,057 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.Web.Models.Account.TenantChangeViewModel
+DEBUG 2017-09-06 23:29:40,057 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-09-06 23:29:41,015 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Jgp.Issues.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-09-06 23:29:41,016 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Jgp.Issues.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-09-06 23:29:41,017 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Jgp.Issues.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-09-06 23:29:41,017 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Jgp.Issues.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-09-06 23:29:41,018 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Jgp.Issues.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-09-06 23:29:41,019 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Jgp.Issues.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2017-09-06 23:29:42,011 [13   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: 当前用户没有登录到系统！
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   在 Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: 当前用户没有登录到系统！
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   在 Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2017-09-06 23:29:49,398 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"dd6df0ad-2361-4c09-8248-c4715554d481","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-09-06T23:29:49.3948037+08:00","Properties":{}}
+DEBUG 2017-09-06 23:29:49,433 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: dd6df0ad-2361-4c09-8248-c4715554d481
+DEBUG 2017-09-06 23:29:54,243 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"c7f76530-2010-44e0-8b7f-414c582887ae","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-09-06T23:29:54.2438037+08:00","Properties":{}}
+DEBUG 2017-09-06 23:29:54,253 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: c7f76530-2010-44e0-8b7f-414c582887ae
+DEBUG 2017-09-06 23:29:58,153 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: c7f76530-2010-44e0-8b7f-414c582887ae
+DEBUG 2017-09-06 23:29:58,499 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"9e7cb06d-b06d-44f4-86dd-3219a90f7509","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-09-06T23:29:58.4998037+08:00","Properties":{}}
+DEBUG 2017-09-06 23:29:58,508 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 9e7cb06d-b06d-44f4-86dd-3219a90f7509
+WARN  2017-09-06 23:30:06,366 [28   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: 当前用户没有登录到系统！
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   在 Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: 当前用户没有登录到系统！
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   在 Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2017-09-06 23:30:09,155 [27   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"bf9bcc1d-ff51-48df-8893-5d674bf9bae9","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-09-06T23:30:09.1558037+08:00","Properties":{}}
+DEBUG 2017-09-06 23:30:09,175 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: bf9bcc1d-ff51-48df-8893-5d674bf9bae9
+DEBUG 2017-09-06 23:30:11,119 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: bf9bcc1d-ff51-48df-8893-5d674bf9bae9
+DEBUG 2017-09-06 23:30:11,649 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"fbe96352-f761-4c6c-af4a-fd3636304f76","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-09-06T23:30:11.6498037+08:00","Properties":{}}
+DEBUG 2017-09-06 23:30:11,681 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: fbe96352-f761-4c6c-af4a-fd3636304f76
+WARN  2017-09-06 23:30:13,237 [26   ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'Issues'!
+DEBUG 2017-09-06 23:30:13,279 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: fbe96352-f761-4c6c-af4a-fd3636304f76
+DEBUG 2017-09-06 23:30:13,826 [27   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"7419a405-aeaf-435d-a6bb-1b0f80d78cab","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-09-06T23:30:13.8268037+08:00","Properties":{}}
+DEBUG 2017-09-06 23:30:13,838 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 7419a405-aeaf-435d-a6bb-1b0f80d78cab
+DEBUG 2017-09-06 23:30:39,403 [27   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 9e7cb06d-b06d-44f4-86dd-3219a90f7509
+DEBUG 2017-09-06 23:30:39,404 [27   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: dd6df0ad-2361-4c09-8248-c4715554d481
+WARN  2017-09-06 23:30:43,678 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'Issues'!
+DEBUG 2017-09-06 23:30:43,719 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 7419a405-aeaf-435d-a6bb-1b0f80d78cab
+DEBUG 2017-09-06 23:30:44,178 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"9eb28e9d-78f0-458e-9438-99c11e013697","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-09-06T23:30:44.1788037+08:00","Properties":{}}
+DEBUG 2017-09-06 23:30:44,188 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 9eb28e9d-78f0-458e-9438-99c11e013697
+DEBUG 2017-09-06 23:33:18,735 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-09-06 23:33:18,886 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-09-06 23:33:18,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Jgp.Issues.Web.IssuesWebModule, Jgp.Issues.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:33:18,893 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Jgp.Issues.IssuesDataModule, Jgp.Issues.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:33:18,893 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:33:18,893 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:33:18,893 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:33:18,894 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:33:18,894 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:33:18,894 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:33:18,894 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Jgp.Issues.IssuesCoreModule, Jgp.Issues.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:33:18,894 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Jgp.Issues.IssuesApplicationModule, Jgp.Issues.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:33:18,894 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:33:18,894 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Jgp.Issues.Api.IssuesWebApiModule, Jgp.Issues.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:33:18,894 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:33:18,895 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:33:18,895 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:33:18,895 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:33:18,895 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:33:18,897 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-09-06 23:33:19,121 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-06 23:33:19,121 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-06 23:33:19,121 [1    ] o.Configuration.LanguageManagementConfig - Converted Issues (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-06 23:33:19,121 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-06 23:33:19,334 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Jgp.Issues.EntityFramework.IssuesDbContext, Jgp.Issues.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:33:19,728 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-09-06 23:33:19,734 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-09-06 23:33:19,737 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-09-06 23:33:19,739 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Issues
+DEBUG 2017-09-06 23:33:19,740 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-09-06 23:33:19,793 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-06 23:33:19,828 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2017-09-06 23:33:19,828 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-09-06 23:33:19,830 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-09-06 23:33:19,830 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.Users.Dto.CreateUserDto
+DEBUG 2017-09-06 23:33:19,831 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.Users.Dto.UpdateUserDto
+DEBUG 2017-09-06 23:33:19,831 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.Users.Dto.UserDto
+DEBUG 2017-09-06 23:33:19,831 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.Roles.Dto.CreateRoleDto
+DEBUG 2017-09-06 23:33:19,831 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.Roles.Dto.PermissionDto
+DEBUG 2017-09-06 23:33:19,831 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.Roles.Dto.RoleDto
+DEBUG 2017-09-06 23:33:19,831 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-09-06 23:33:19,831 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-09-06 23:33:19,831 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.MultiTenancy.Dto.TenantDto
+DEBUG 2017-09-06 23:33:19,831 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.Web.Models.Account.TenantChangeViewModel
+DEBUG 2017-09-06 23:33:19,831 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jgp.Issues.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-09-06 23:33:20,834 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Jgp.Issues.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-09-06 23:33:20,834 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Jgp.Issues.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-09-06 23:33:20,835 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Jgp.Issues.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-09-06 23:33:20,835 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Jgp.Issues.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-09-06 23:33:20,836 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Jgp.Issues.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-09-06 23:33:20,837 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Jgp.Issues.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2017-09-06 23:33:25,115 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"da263b6b-198f-4991-acac-a05efd9f2b2c","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-09-06T23:33:25.1118037+08:00","Properties":{}}
+DEBUG 2017-09-06 23:33:25,148 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: da263b6b-198f-4991-acac-a05efd9f2b2c
+WARN  2017-09-06 23:33:27,407 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'Issues'!
+DEBUG 2017-09-06 23:33:27,452 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: da263b6b-198f-4991-acac-a05efd9f2b2c
+DEBUG 2017-09-06 23:33:28,037 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"022f1d3a-7caa-4811-b7c7-474aae490537","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-09-06T23:33:28.0378037+08:00","Properties":{}}
+DEBUG 2017-09-06 23:33:28,048 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 022f1d3a-7caa-4811-b7c7-474aae490537
+WARN  2017-09-06 23:33:32,275 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'Issues'!
+DEBUG 2017-09-06 23:33:32,323 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 022f1d3a-7caa-4811-b7c7-474aae490537
+DEBUG 2017-09-06 23:33:32,749 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"9c66a43b-a3c1-44c5-bfbd-1f13fbd78b0c","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-09-06T23:33:32.7498037+08:00","Properties":{}}
+DEBUG 2017-09-06 23:33:32,761 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 9c66a43b-a3c1-44c5-bfbd-1f13fbd78b0c
