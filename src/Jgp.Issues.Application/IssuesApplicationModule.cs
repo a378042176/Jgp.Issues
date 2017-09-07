@@ -42,6 +42,8 @@ namespace Jgp.Issues
                 cfg.CreateMap<CreateUserDto, User>().ForMember(x => x.Roles, opt => opt.Ignore());
 
                 cfg.CreateMap<CompanyDto, Company>();
+                cfg.CreateMap<CreateCompanyDto, Company>();
+                cfg.CreateMap<Company, CompanyDto>();
             });
         }
     }

@@ -1,4 +1,5 @@
 ﻿using System.Linq;
+using System.Threading.Tasks;
 using Abp.Runtime.Validation;
 using Shouldly;
 
@@ -28,6 +29,25 @@ namespace SimpleTaskSystem.Test.Tasks
             //output.Tasks.All(t => t.State == (byte)TaskState.Completed).ShouldBe(true);
         }
 
-       
+        [Fact]
+        public void Should_CreateCompany_Test()
+        {
+            var initialTaskCount = UsingDbContext(context => context.Companys.Count());
+            //Act
+            _companyAppService.CreateCompany(new Jgp.Issues.Companys.Dtos.CreateCompanyDto()
+            {
+                CompanyName = "艾可思信息技术有限公司"
+            });
+
+            //Check results
+            UsingDbContext(context =>
+            {
+                context.Companys.Count().ShouldBe(initialTaskCount + 1);
+                var company = context.Companys.FirstOrDefault(t => t.CompanyName == "艾可思信息技术有限公司");
+                company.ShouldNotBe(null);
+            });
+        }
+
+
     }
 }

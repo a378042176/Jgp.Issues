@@ -112,7 +112,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Companys\Company.cs" />
-    <Compile Include="Companys\ICompanyRepository.cs" />
     <Compile Include="IssuesConsts.cs" />
     <Compile Include="IssuesCoreModule.cs" />
     <Compile Include="AppVersionHelper.cs" />

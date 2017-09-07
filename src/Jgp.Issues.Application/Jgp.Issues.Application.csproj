@@ -25,6 +25,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Jgp.Issues.Application.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -118,10 +119,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Companys\Dtos\CompanyDto.cs" />
+    <Compile Include="Companys\Dtos\CreateCompanyDto.cs" />
     <Compile Include="Companys\Dtos\GetCompanysInput.cs" />
     <Compile Include="Companys\Dtos\GetCompanysOutput.cs" />
     <Compile Include="Companys\ICompanyAppService.cs" />
-    <Compile Include="Companys\TaskAppService.cs" />
+    <Compile Include="Companys\CompanyAppService.cs" />
     <Compile Include="IssuesApplicationModule.cs" />
     <Compile Include="IssuesAppServiceBase.cs" />
     <Compile Include="Authorization\Accounts\AccountAppService.cs" />
